@@ -24,6 +24,12 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 
 - [Wake on Lan](docs/wol.md) - Power devices on through the network
 
+## Configurations
+- [Wake on Lan Server](configs/wol-server/)
+
+- [Twingate Connector Environment File](configs/connector.conf.example)
+
+- [Docker Compose File](configs/docker-compose.yml)
 
 ## License
 - [MIT License](LICENSE)
