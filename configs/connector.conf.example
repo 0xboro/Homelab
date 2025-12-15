@@ -1,0 +1,4 @@
+TWINGATE_NETWORK=Network_Name
+TWINGATE_ACCESS_TOKEN=Access_Token
+TWINGATE_REFRESH_TOKEN=Refresh_Token
+TWINGATE_LOG_ANALYTICS=v2 #Enhanced logging - remove for standard
