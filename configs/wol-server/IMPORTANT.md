@@ -1,5 +1,4 @@
 # IMPORTANT
----
 
 - The code was generated with [Claude AI](https://claude.ai), and adjusted to my homelab needs.
 
