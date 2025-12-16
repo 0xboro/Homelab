@@ -1,9 +1,14 @@
 # Welcome To My Homelab
+---
+
 _Self-hosted infrastructure on a Raspberry Pi 5._
 
 **\* This page (README) is the navigation of this repository.** \*
 
+---
 ## Documentations
+---
+
 - [Homelab Overview](docs/overview.md) - Why I built this and lessons learned
 
 - [Hardware Used](docs/hardware.md) - Hardware prices and details
@@ -24,12 +29,17 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 
 - [Wake on Lan](docs/wol.md) - Power devices on through the network
 
+---
 ## Configurations
-- [Wake on Lan Server](configs/wol-server/)
+---
+
+- [Wake on Lan Server via Python](configs/wol-server/)
 
 - [Twingate Connector Environment File](configs/connector.conf.example)
 
 - [Docker Compose File](configs/docker-compose.yml)
 
+---
 ## License
+---
 - [MIT License](LICENSE)
