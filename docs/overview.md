@@ -65,6 +65,4 @@ From the manual assembly of the Raspberry Pi 5 to the configuration of everythin
 ---
 
 
-<p style="text-align:center; font-weight:bold">
-This repository will update as my homelab setup evolves.
-</p>
+***This repository will update as my homelab setup evolves.***
