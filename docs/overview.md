@@ -21,21 +21,23 @@ In order to use self-hosted remote desktop solution, I'll have to be in my home 
 ## Solutions to The Problems
 
 ### Problem #1 Solution
-Configured [Wake on LAN](/docs/wol.md) to remotely turn on the pc.
+Configured [Wake on LAN](/docs/wol.md) to remotely turn on the PC.
  
 ### Problem #2 Solution
-Configured [RustDesk](/docs/rustdesk.md) relay / p2p server to have a self-hosted remote desktop service. 
+Configured [RustDesk](/docs/rustdesk.md) relay / P2P server to have a self-hosted remote desktop service. 
 
 ### Problem #3 Solution
 Configured [Twingate](/docs/twingate.md) for secure zero-trust access to my network.
 
->&#x1F6C8; Note
+> [!IMPORTANT]
 >
-> 1. It's important to mention that Twingate is the root of my setup, without it, I could not turn the PC remotely nor use my self-hosted remote desktop service.
-> 
-> 2. Twingate + RustDesk combination was configured with [NetworkChuck](https://www.youtube.com/@NetworkChuck)'s tutorial.
->       - [Twingate Tutorial](https://youtu.be/1lZ3FQSv-wI?si=8gdykuX-ScusZnPG)
->       - [RustDesk Tutorial](https://youtu.be/EXL8mMUXs88?si=RxT-H71s68EVWPed)
+> Twingate is the base of my setup - without it, I couldn't use WoL nor RustDesk remotely.
+
+Twingate + RustDesk combination was configured with [NetworkChuck](https://www.youtube.com/@NetworkChuck)'s tutorial.
+
+- [Twingate Tutorial](https://youtu.be/1lZ3FQSv-wI?si=8gdykuX-ScusZnPG)
+
+- [RustDesk Tutorial](https://youtu.be/EXL8mMUXs88?si=RxT-H71s68EVWPed)
 
 ---
 
@@ -43,17 +45,17 @@ Configured [Twingate](/docs/twingate.md) for secure zero-trust access to my netw
 
 After solving the 3 main problems, I decided to add more services for convenience.
 
-All of the following services were configured on [Docker](/docs/docker.md) - a centralized container management solution:
+**All of the following services were configured on [Docker](/docs/docker.md)**
  
-- Configured [Portainer](/docs/portainer.md) for easier Docker management
+- [Portainer](/docs/portainer.md) for easier Docker management
 
-- Configured [Uptime-kuma](/docs/uptime-kuma.md) to monitor services on the system
+- [Uptime-Kuma](/docs/uptime-kuma.md) to monitor services on the system
 
-- Configured [Glances](/docs/glances.md) to monitor the system's health
+- [Glances](/docs/glances.md) to monitor the system's health
 
->&#x1F6C8; Note
+> [!NOTE]
 >
->RustDesk also runs as a Docker container.
+> RustDesk also runs as a Docker container.
 
 
 ## Lessons Learned
@@ -63,6 +65,5 @@ I made several mistakes along the way, especially since it's my first time using
 From the manual assembly of the Raspberry Pi 5 to the configuration of everything, I can honestly say that it was 100% worth it, both for my learning, and my overall quality of life.
 
 ---
-
 
 ***This repository will update as my homelab setup evolves.***
