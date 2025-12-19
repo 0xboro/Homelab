@@ -49,7 +49,7 @@ After solving the 3 main problems, I decided to add more services for convenienc
  
 - [Portainer](/docs/portainer.md) for easier Docker management
 
-- [Uptime-Kuma](/docs/uptime-kuma.md) to monitor services on the system
+- [Uptime Kuma](/docs/uptime-kuma.md) to monitor services on the system
 
 - [Glances](/docs/glances.md) to monitor the system's health
 
