@@ -41,7 +41,7 @@ Since I'm using `Bash` as my shell and there are multiple users on the Pi, I'll 
 
 Inside the bashrc file, we will have to find this specific code block:
 
-```
+```bash
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
 ``` 
@@ -51,7 +51,7 @@ if [ -x /usr/bin/dircolors ]; then
 There we could start and add our aliases, with the same syntax used in the regular terminal, the only difference now is that they are restart-proof.
 
 ## Bash Aliases in The Homelab
-```
+```bash
 #general aliases
     alias update='sudo apt update'
     alias upgrade='sudo apt upgrade -y'
