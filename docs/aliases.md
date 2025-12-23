@@ -18,10 +18,15 @@ Create an alias that makes `rm` equal to `rm -i`, making each `rm` interactive a
 
 In order to configure aliases, we will use the following command:
 
-`alias ____='Command'`
+```bash 
+alias ____='Command'
+```
 
 In our example, the command would be:
-`alias rm='rm -i'`
+
+```bash
+alias rm='rm -i'
+```
 
 It's important to mention, that aliases that are configured in the terminal are **volatile** and configured only for the running session, meaning they are removed after closing the terminal.
 
