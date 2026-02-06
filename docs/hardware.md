@@ -37,8 +37,8 @@ Official Raspberry Pi power supply to ensure stable operation of the device and 
 
 ---
 
-## KKSB Case for Raspberry Pi 5
-![Raspberry Pi Case](/images/hardware/Untitled%20design.png)
+## KKSB Case for Raspberry Pi 5 | ~ $22
+![Raspberry Pi Case](/images/hardware/KKSBCasePi5.png)
 
 A case adds a physical layer of protection and prevents dust collection.
 
