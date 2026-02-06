@@ -1,4 +1,4 @@
-# Hardware
+# Hardware Used
 
 ## Raspberry PI 5 (8GB RAM) | ~ $122 
 ![Raspberry Pi 5](/images/hardware/RaspberryPi5.png)
@@ -34,5 +34,12 @@ Active cooling to prevent thermal throttling and maintain stable operating tempe
 
 
 Official Raspberry Pi power supply to ensure stable operation of the device and its peripherals.
+
+---
+
+## KKSB Case for Raspberry Pi 5
+![Raspberry Pi Case](/images/hardware/Untitled%20design.png)
+
+A case adds a physical layer of protection and prevents dust collection.
 
 ---
