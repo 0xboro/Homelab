@@ -24,16 +24,16 @@ I hardened SSH beyond its default configuration with ed25519 key-based authentic
 
 **/etc/ssh/sshd_config**
 
-    ```diff
-    - #PubkeyAuthentication yes
-    + PubkeyAuthentication yes
+```diff
+- #PubkeyAuthentication yes
++ PubkeyAuthentication yes
 
-    - PasswordAuthentication yes
-    + PasswordAuthentication no
+- PasswordAuthentication yes
++ PasswordAuthentication no
 
-    - PermitRootLogin prohibit-password
-    + PermitRootLogin no
-    ```
+- PermitRootLogin prohibit-password
++ PermitRootLogin no
+```
 
 After the configuration is complete, restart the SSH service:
 
