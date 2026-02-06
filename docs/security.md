@@ -45,7 +45,7 @@ sudo systemctl restart ssh
 I chose Uncomplicated Firewall (UFW) since I only need to allow certain ports and UFW is the simplest firewall that does the job.
 
 ### UFW Configuration
-First, I've disabled IPv6 since it's not used in my homelab
+Firstly, I've disabled IPv6 (not used in my homelab):
 
 **/etc/default/ufw**
 ```diff
