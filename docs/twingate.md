@@ -26,56 +26,8 @@ Twingate is a great zero-trust platform, combining a secure split-tunnel to my h
 ## Twingate Configuration
 For installation and initial setup, please refer to the [official Twingate documentations](https://www.twingate.com/docs/quick-start).
 
-**systemd file**
 
-```bash
-# /usr/lib/systemd/system/twingate-connector.service
-[Unit]
-Description=Twingate Connector service
-After=network.target
-StartLimitIntervalSec=0
 
-[Service]
-Restart=always
-RestartSec=10
-Environment=TWINGATE_API_ENDPOINT=/var/run/twingate/connector.sock
-EnvironmentFile=<REDACTED>
-ExecStart=/usr/bin/twingate-connector --systemd-watchdog
-DynamicUser=yes
-ProtectSystem=full
-ProtectHome=yes
-ProtectKernelLogs=yes
-ProtectKernelModules=yes
-ProtectHostname=yes
-ProtectClock=yes
-ProtectKernelTunables=yes
-RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX AF_NETLINK
-RestrictNamespaces=true
-RestrictSUIDSGID=yes
-SystemCallArchitectures=native
-SystemCallFilter=~@clock @debug @module @mount @raw-io @reboot @privileged @resources @cpu-emulation @obsolete
-LockPersonality=yes
-MemoryDenyWriteExecute=yes
-RestrictRealtime=yes
-CapabilityBoundingSet=
-DevicePolicy=closed
-PrivateUsers=yes
-PrivateTmp=yes
-PrivateDevices=yes
-NoNewPrivileges=yes
-UMask=0777
-RuntimeDirectory=twingate
-WatchdogSec=30s
+Systemd `.service` file shown [here](/configs/Twingate/twingate-connector.service.example)
 
-[Install]
-WantedBy=multi-user.target
-```
-
-**Environment File**
-```bash
-TWINGATE_NETWORK=Network_Name
-TWINGATE_ACCESS_TOKEN=Access_Token
-TWINGATE_REFRESH_TOKEN=Refresh_Token
-TWINGATE_LOG_ANALYTICS=v2 #Enhanced logging - remove for standard
-```
-> Environment file is also shown [here](/configs/connector.conf.example) 
+Environment file is shown [here](/configs/Twingate/connector.conf.example)
