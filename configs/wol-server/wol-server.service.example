@@ -1,0 +1,12 @@
+[Unit]
+Description=WOL Web Server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /services/wol_server.py
+User=root
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
