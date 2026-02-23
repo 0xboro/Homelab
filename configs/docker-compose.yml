@@ -30,7 +30,7 @@ services:
       - portainer-data:/data
 
   uptime-kuma:
-    image: louislam/uptime-kuma:1
+    image: louislam/uptime-kuma:latest
     container_name: uptime-kuma
     volumes:
       - uptime-kuma-data:/app/data
