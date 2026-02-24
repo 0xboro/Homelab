@@ -20,6 +20,6 @@ I have 2 types of monitors - monitors for my services, and for my general connec
 | Twingate | HTTPS | 120 | Twingate home network connection |
 
 #### General Connectivity
-- Internet 1 & 2 - Redundant ping to 2 public DNS servers (8.8.8.8 & 1.1.1.1) to distinguish between an outage of my internet connection and a single provider. 
+- Internet 1 & 2 - Redundant ping to 2 public DNS servers (8.8.8.8 & 1.1.1.1) every 120 seconds to distinguish between an outage of my internet connection and a single provider. 
 
-- Pi - Ping to the Raspberry Pi's loopback IP to separate Pi-level problems from service-level issues.
+- Pi - Ping to the Raspberry Pi's loopback IP every 60 seconds to separate Pi-level problems from service-level issues.
