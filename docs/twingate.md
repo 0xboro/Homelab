@@ -27,10 +27,10 @@ All jokes aside, I chose Twingate as a part of NetworkChuck's tutorial (link in 
 
 Twingate is a great zero-trust platform, combining a secure split-tunnel to my home network, without exposing any internal services to the internet, like standard port forwarding would've done.
 
-## Twingate Configuration
+## Twingate Installation
 For installation and initial setup, please refer to the [official Twingate documentations](https://www.twingate.com/docs/quick-start).
 
-
+## Twingate Configuration
 
 Systemd `.service` file shown [here](/configs/Twingate/twingate-connector.service.example)
 
