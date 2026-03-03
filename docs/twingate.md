@@ -28,7 +28,9 @@ All jokes aside, I chose Twingate as a part of NetworkChuck's tutorial (link in 
 Twingate is a great zero-trust platform, combining a secure split-tunnel to my home network, without exposing any internal services to the internet, like standard port forwarding would've done.
 
 ## Twingate Installation
-For installation and initial setup, please refer to the [official Twingate documentations](https://www.twingate.com/docs/quick-start).
+For installation and initial setup, please refer to the [official Twingate documentation](https://www.twingate.com/docs/quick-start)
+
+or [NetworkChuck's tutorial](https://youtu.be/1lZ3FQSv-wI?si=gABHozIN5JXO33kr).
 
 ## Twingate Configuration
 
