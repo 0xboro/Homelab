@@ -17,4 +17,4 @@ I chose Docker to run those services specifically since Docker is a very conveni
 Combined with Portainer, managing containers becomes even easier than it already is.
 
 ## Docker Installation
-For installation and initial setup, please refer to the [official Docker documentations](https://docs.docker.com/engine/install/).
+For installation and initial setup, please refer to the [official Docker documentation](https://docs.docker.com/engine/install/).
