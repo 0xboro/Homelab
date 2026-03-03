@@ -11,3 +11,7 @@ For stability, I chose to run it as a systemd service, `.service` file is shown 
 ![Site Preview](/images/WoL/SitePreview.png)
 
 _Names are hidden._
+
+> [!NOTE]
+>
+> Users that use GitHub with a light background may not see the site image properly, since the site's background color is white.
