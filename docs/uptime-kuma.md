@@ -1,4 +1,8 @@
 # Uptime Kuma
+
+<p align="center">
+    <img src="../images/UptimeKuma/UptimeKuma_Logo.png" width="300">
+</p>
 I chose Uptime Kuma to monitor both my connectivity and services status.
 
 ## Uptime Kuma Installation

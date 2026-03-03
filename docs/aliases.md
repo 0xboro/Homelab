@@ -1,5 +1,9 @@
 # Bash Aliases
- 
+
+<p align="center">
+    <img src="../images/aliases/Gnu-bash-logo.png" width="400">
+</p>
+
 I configured my user's bashrc file (~/.bashrc) since my brother and I administrate the Raspberry Pi on separate accounts.
 
 ## Bash Aliases in My Homelab
@@ -37,9 +41,3 @@ I configured my user's bashrc file (~/.bashrc) since my brother and I administra
 > [!NOTE]
 >
 > My Docker aliases use subshells `()` to keep me in the original directory after execution.
-
----
-
-![Bash Logo](/images/aliases/Gnu-bash-logo.png)
-
----

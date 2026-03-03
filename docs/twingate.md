@@ -1,5 +1,9 @@
 # Twingate
 
+<p align="center">
+    <img  src="../images/Twingate/TwingateLogo.png" width="300">
+</p>
+
 At the beginning, Twingate ran on Docker, and one time I was working remotely on my Raspberry Pi, and I wanted to restart the Docker compose.
 
 Up until now, everything sounds normal, the problem was, that instead of just using the command:
