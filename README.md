@@ -32,7 +32,7 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 
 - [Wake on Lan Server via Python](configs/wol-server/)
 
-- [Twingate Connector Environment File](configs/connector.conf.example)
+- [Twingate](configs/Twingate/)
 
 - [Docker Compose File](configs/docker-compose.yml)
 
