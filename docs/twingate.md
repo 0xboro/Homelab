@@ -44,7 +44,7 @@ For the Raspberry Pi resource, I allow all the ports my services use.
 
 > [!NOTE]
 >
-> Twingate's port restrictions control traffic over the tunnel, while [UFW](/docs/security.md#firewall) controls traffic at OS level. 
+> Twingate's port restrictions control traffic over the tunnel, while [UFW](/docs/security-hardening.md#firewall) controls traffic at OS level. 
 
 In my own PC's resource, I only allow RustDesk's ports.
 <p align="center">
