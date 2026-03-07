@@ -34,7 +34,7 @@ class WOLHandler(BaseHTTPRequestHandler):
                 }
                 </script>
             </head>
-            <body style="text-align:center; padding-top:100px; font-family:Arial;">
+            <body style="text-align:center; background-color:#2d2d2d; padding-top:100px; font-family:Arial;">
                 <h1>Wake PCs</h1>
                 <button onclick="wakePC('USER1')" style="font-size:24px; padding:20px 40px; cursor:pointer; display:block; margin:100px auto;">
                     USER1
