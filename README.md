@@ -26,7 +26,7 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 
 - [Wake on Lan](docs/wol.md) - Power devices on through the network
 
-- [Security & Hardening](docs/security.md) - Homelab's security and hardening configurations
+- [Security & Hardening](docs/security-hardening.md) - Homelab's security and hardening configurations
 
 ## Configurations
 
