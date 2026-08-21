@@ -15,7 +15,7 @@ I configured my user's bashrc file (~/.bashrc) since my brother and I administra
     alias lah='ls -lah'
 
 #docker aliases
-    alias dcup='(cd /services && docker compose up -d)'
+    alias dcup='(cd /services && docker compose up -d --force-recreate)'
     alias dcpull='(cd /services && docker compose pull)'
     alias dcdown='(cd /services && docker compose down)'
 ```
@@ -32,7 +32,7 @@ I configured my user's bashrc file (~/.bashrc) since my brother and I administra
 
 #### Docker Aliases
 
-- **dcup** - Starts the services in detached mode (`-d`) to run in the background
+- **dcup** - Starts the services in detached mode to run in the background, and always recreate the containers
 
 - **dcpull** - Pulls latest images of used services (requires restart to apply updates)
 
