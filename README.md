@@ -1,3 +1,13 @@
+> [!NOTE]
+>
+> **v2 is in progress!**
+>
+> transitioning architecture from a Docker-based setup to GitOps (Ansible + Flux) and k3s.
+>
+> Keep in mind, pages are being rewritten, so some may still describe the old setup.
+>
+> The original version is preserved at [v1.0.0](https://github.com/0xboro/Homelab/tree/v1.0.0).
+
 # Welcome To My Homelab
 
 _Self-hosted infrastructure on a Raspberry Pi 5._
