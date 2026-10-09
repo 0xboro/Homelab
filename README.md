@@ -20,17 +20,7 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 
 - [Hardware Used](docs/hardware.md) - Hardware prices and details
 
-- [Bash Aliases](docs/aliases.md) - Aliases created to ease the workflow
-
 - [Twingate](docs/twingate.md) - Zero-trust solution for secure connection
-
-- [Docker](docs/docker.md) - Centralized services
-
-- [Portainer](docs/portainer.md) - Easier Docker management
-
-- [Uptime Kuma](docs/uptime-kuma.md) - Service monitor
-
-- [Glances](docs/glances.md) - System monitor
 
 - [RustDesk](docs/rustdesk.md) - Self-hosted remote access
 
@@ -43,8 +33,6 @@ _Self-hosted infrastructure on a Raspberry Pi 5._
 - [Wake on Lan Server via Python](configs/wol-server/)
 
 - [Twingate](configs/Twingate/)
-
-- [Docker Compose File](configs/docker-compose.yml)
 
 ## License
 - [MIT License](LICENSE)

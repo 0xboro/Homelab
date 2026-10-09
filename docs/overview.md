@@ -41,23 +41,6 @@ Twingate + RustDesk combination was configured with [NetworkChuck](https://www.y
 
 ---
 
-## Additional Services
-
-After solving the 3 main problems, I decided to add more services for convenience.
-
-**All of the following services were configured on [Docker](/docs/docker.md)**
- 
-- [Portainer](/docs/portainer.md) for easier Docker management
-
-- [Uptime Kuma](/docs/uptime-kuma.md) to monitor services on the system
-
-- [Glances](/docs/glances.md) to monitor the system's health
-
-> [!NOTE]
->
-> RustDesk also runs as a Docker container.
-
-
 ## Lessons Learned
 The setup of this homelab taught me many things.
 I made several mistakes along the way, especially since it's my first time using a Raspberry Pi 5. But that's a part of learning :)

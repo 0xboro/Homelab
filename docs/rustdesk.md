@@ -50,4 +50,3 @@ services:
     network_mode: "host"
     restart: unless-stopped
 ```
-Full Docker Compose: [docker-compose.yml](/configs/docker-compose.yml).
