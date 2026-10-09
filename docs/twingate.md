@@ -1,9 +1,5 @@
 # Twingate
 
-<p align="center">
-    <img  src="../images/Twingate/TwingateLogo.png" width="300">
-</p>
-
 Twingate is a zero-trust platform, combining a secure split-tunnel to my home network, without exposing any internal services to the internet, like standard port forwarding would've done.
 
 ---

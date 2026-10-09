@@ -1,9 +1,5 @@
 # RustDesk
 
-<p align="center">
-    <img src="../images/Rustdesk/RustDeskLogo.png" width="250">
-</p>
-
 RustDesk is a self-hosted remote desktop solution, which provides more security over my remote sessions by relaying the traffic through a locally installed server.
 
 ## RustDesk Installation
