@@ -2,8 +2,7 @@
 
 RustDesk is a self-hosted remote desktop solution, which provides more security over my remote sessions by relaying the traffic through a locally installed server.
 
-## RustDesk Installation
-For installation and initial setup, please refer to the [official RustDesk documentation](https://rustdesk.com/docs/en/).
+**Installation:** [official guide](https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/) (I used Method 3: `.deb` packages from the [RustDesk server releases](https://github.com/rustdesk/rustdesk-server/releases)).
 
 ## RustDesk Setup
 RustDesk is set up for 2 scenarios:
@@ -19,30 +18,13 @@ RustDesk is set up for 2 scenarios:
 
 RustDesk runs 2 services:
 
-1. hbbr - RustDesk relay server, that acts as the bridge if peer-to-peer connection fails.
+1. `hbbr` - RustDesk relay server, that acts as the bridge if peer-to-peer connection fails.
 
-2. hbbs - RustDesk ID server, which uses the rendezvous protocol to help clients find each other over the network.
+2. `hbbs` - RustDesk ID server, which uses the rendezvous protocol to help clients find each other over the network.
 
-### RustDesk in Docker Compose
-```yaml
-services:
-  hbbs:
-    container_name: hbbs
-    image: rustdesk/rustdesk-server:latest
-    command: hbbs
-    volumes:
-      - ./data:/root
-    network_mode: "host"
-    depends_on:
-      - hbbr
-    restart: unless-stopped
+## Running as a systemd Service
 
-  hbbr:
-    container_name: hbbr
-    image: rustdesk/rustdesk-server:latest
-    command: hbbr
-    volumes:
-      - ./data:/root
-    network_mode: "host"
-    restart: unless-stopped
-```
+Originally, RustDesk ran in Docker. I moved it to a systemd service so the core of my homelab, the remote-access chain (Twingate, RustDesk and WoL), keeps working independently of any container runtime.
+This follows the lesson from the [Twingate incident](/docs/twingate.md#why-twingate-runs-as-systemd-service).
+
+By copying the server's existing keys from the Docker volume, I kept every trusted client-server relationship uninterrupted, making the transition to systemd a seamless experience.
