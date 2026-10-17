@@ -16,7 +16,7 @@ Even if the PC is on, using remote desktop over the internet may not be the most
 
 ### Problem #3
 
-In order to use self-hosted remote desktop solution, I'll have to be in my home LAN, and traditional VPN's use port forwarding, forcing me to expose internal services to the internet.
+In order to use self-hosted remote desktop solution, I'll have to be in my home LAN, and traditional self-hosted VPN's require port forwarding, forcing me to expose internal services to the internet.
 
 ## Solutions to The Problems
 
