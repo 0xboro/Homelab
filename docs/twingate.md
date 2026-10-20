@@ -7,6 +7,7 @@ Twingate is a zero-trust platform, providing a secure split-tunnel to my home ne
 ---
 
 ## Why Twingate runs as systemd service
+
 Initially, Twingate ran as a Docker container. One time I was working remotely on my homelab, and I wanted to restart the Docker compose.
 
 Instead of using `docker compose up -d` to restart, I ran:

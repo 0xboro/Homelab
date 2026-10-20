@@ -21,12 +21,15 @@ In order to use self-hosted remote desktop solution, I'll have to be in my home 
 ## Solutions to The Problems
 
 ### Problem #1 Solution
+
 Configured [Wake on LAN](/docs/wol.md) to remotely turn on the PC.
  
 ### Problem #2 Solution
+
 Configured [RustDesk](/docs/rustdesk.md) relay / P2P server to have a self-hosted remote desktop service. 
 
 ### Problem #3 Solution
+
 Configured [Twingate](/docs/twingate.md) for secure zero-trust access to my network.
 
 > [!IMPORTANT]
@@ -42,6 +45,7 @@ Twingate + RustDesk combination was configured with [NetworkChuck](https://www.y
 ---
 
 ## Lessons Learned
+
 The setup of this homelab taught me many things.
 I made several mistakes along the way, especially since it's my first time using a Raspberry Pi 5. But that's a part of learning :)
 

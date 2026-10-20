@@ -5,6 +5,7 @@ RustDesk is a self-hosted remote desktop solution, which provides more security 
 **Installation:** [official guide](https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/) (I used Method 3: `.deb` packages from the [RustDesk server releases](https://github.com/rustdesk/rustdesk-server/releases)).
 
 ## RustDesk Setup
+
 RustDesk is set up for 2 scenarios:
 1. When I'm home, and I remote into one of my devices within the local network - which then the connection is direct (peer-to-peer).
 

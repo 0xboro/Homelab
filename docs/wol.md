@@ -1,4 +1,5 @@
 # Wake on LAN (WoL)
+
 I added WoL to remotely power on devices on my network.
 Typically used to wake a PC up before connecting to it via [RustDesk](/docs/rustdesk.md).
 
