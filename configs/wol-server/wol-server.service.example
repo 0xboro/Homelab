@@ -3,10 +3,19 @@ Description=WOL Web Server
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python3 /services/wol_server.py
-User=root
+ExecStart=/usr/bin/python3 <path-to-py-script>
+EnvironmentFile=<MAC-env-file-path>
+Environment=PYTHONUNBUFFERED=1
 Restart=always
 RestartSec=5
+
+DynamicUser=yes
+AmbientCapabilities=CAP_NET_RAW
+CapabilityBoundingSet=CAP_NET_RAW
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
 
 [Install]
 WantedBy=multi-user.target
